@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary : #1F6F78;
+  --color-primary-dark : #1E2024;
+  --color-primary-light : #6FB6B5;
+  --color-primary-gray : #2F3A3D;
+  --color-wavy-blue : #E6F4F3;
+  --color-gold : #FBBF24;
+}
+
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.navlink:hover{
+  color: var(--color-gold);
+}
+.btn:hover{
+  background-color: white;
+}
+
+.sercard {
+  transition: transform 0.3s ease;
+}
+
+.sercard:hover {
+  transform: translateY(-5px);
+}
+
+.icon:hover{
+  background-color: var(--color-gold);
+}
+
+.probtn:hover{
+  background-color: var(--color-gold);
+  color: var(--color-primary-dark);
+  border-color: 0 0;
+}
