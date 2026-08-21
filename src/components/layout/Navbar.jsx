@@ -10,13 +10,14 @@ export default function Navbar() {
     <header className="bg-wavy-blue ">
       <nav className="min-h-[20vh] md:min-h-[12vh] flex items-center py-3">
         <Container className="w-full flex flex-col gap-3 items-center md:flex-row md:justify-between ">
-          <Link href="/">
+          <Link href="/" className="w-[70%] md:w-[20%] lg:w-[30%]">
             <Image
               src="/images/logo.png"
               alt="دار البناء"
               width={200}
               height={50}
               priority
+              className="w-full"
             />
           </Link>
           <ul className="flex justify-evenly flex-wrap md:flex-nowrap md:justify-between md:w-[70%] lg:w-[42%] ">
