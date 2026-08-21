@@ -32,7 +32,7 @@ export const socialLinks = [
     icon: FaWhatsapp,
     name: "واتساب",
     details: "تواصل معنا عبر واتساب",
-    href: "https://wa.me/00966543020833",
+    href: "https://wa.me/966543020833",
   },
   {
     id: 2,

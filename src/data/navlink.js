@@ -4,5 +4,5 @@ export const navLinks = [
   { title: "خدماتنا", href: "/#services" },
   { title: "مشاريعنا", href: "/projects" },
   { title: "عملائنا", href: "/#clients" },
-  // { title: "تواصل معنا", href: "/contact" },
+  { title: "تواصل معنا", href: "/contact" },
 ];

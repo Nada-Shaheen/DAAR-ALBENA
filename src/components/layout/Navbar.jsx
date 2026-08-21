@@ -30,9 +30,9 @@ export default function Navbar() {
               })
             }
           </ul>
-          <ContactBtn href="/contact">
-            تواصل معنا
-          </ContactBtn>
+          <ContactBtn href="https://wa.me/966543020833" target="_blank">
+            طلب عرض سعر 
+           </ContactBtn>
         </Container>
       </nav>
     </header>

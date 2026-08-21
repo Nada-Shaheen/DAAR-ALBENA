@@ -40,7 +40,7 @@ export default function About() {
             <Image src="/images/projects/industrial.webp" width={3500} height={2200} alt="مصنع حديد وصلب" className="w-full h-full rounded-2xl col-span-3 col-start-1 row-start-1 object-cover" />
             <Image src="/images/projects/station.webp" width={3840} height={1960} alt="محطة وقود" className="w-full h-full rounded-2xl col-span-3 col-start-2 row-start-2 object-cover" />
             <Image src="/images/projects/bulding.webp" width={1920} height={1080} alt="مبنى تراثي " className="w-full h-full rounded-2xl col-span-3 col-start-3 row-start-3 object-cover" />
-            <ContactBtn href="/about" className="w-fit h-fit col-span-2 col-start-1 row-start-3 self-end text-sm md:text-base ">اعرف المزيد عن دار البناء</ContactBtn>
+            <ContactBtn href="https://wa.me/966543020833" target="_blank" className="text-center h-fit col-span-2 col-start-1 row-start-3 self-end text-sm md:text-base ">طلب عرض سعر</ContactBtn>
           </div>
           {/* </ScrollReveal> */}
         </Container>

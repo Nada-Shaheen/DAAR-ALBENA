@@ -1,3 +1,4 @@
+import ContactBtn from "@/src/components/ui/ContactBtn";
 import Container from "@/src/components/ui/Container";
 import { contactInfo, socialLinks } from "@/src/data/contactus";
 import Link from "next/link";
@@ -24,7 +25,7 @@ export default function Contactpage() {
                         <textarea className="mb-5 border border-primary-gray text-primary-dark rounded-2xl p-2 h-24" name="" id="" placeholder="محتوى الإيميل" />
                         <button type="submit" className={`btn bg-gold px-6 py-2 rounded-full border-2 border-gold transition-all duration-300 text-primary-dark mb-5`}>إرسال</button>
                     </form>
-                    <div className="mb-10 md:mb-0 flex flex-col justify-between md:items-center md:w-[45%] md:h-full rounded-2xl border-l-4 border-t-4 border-primary shadow-xl py-10 ">
+                    <div className="mb-10 md:mb-0 flex flex-col justify-between md:items-center md:w-[45%] md:h-full rounded-2xl border-l-4 border-t-4 border-primary shadow-xl py-7 ">
                         <ul className="w-full md:flex md:flex-col md:items-center md:w-1/2 ">
                             {
                                 contactInfo.map((item) => {
@@ -42,6 +43,9 @@ export default function Contactpage() {
                             }
 
                         </ul>
+                        <ContactBtn href="https://wa.me/966543020833" target="_blank">
+                         طلب عرض سعر 
+                        </ContactBtn>
                         <ul className="w-full flex justify-center">
                             {
                                 socialLinks.map((item) => {

@@ -59,30 +59,30 @@ export const projectCategories = [
     projects: [
       {
         id: 1,
-        name: "فيلا سكنية",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-1",
         description:
-          "تصميم وتنفيذ مشروع فيلا سكنية يجمع بين التصميم المعماري العصري والوظيفية.",
+    "تصميم فيلا سكنية عصرية يجمع بين البساطة والأناقة مع استغلال عملي للمساحات.",
         images: [
           "/images/projects/residential/villa1/villa1.webp",
         ],
       },
       {
         id: 2,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-2",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "تصميم سكني متكامل يركز على الراحة والوظيفية وتوزيع المساحات بشكل عملي.",
         images: [
           "/images/projects/residential/villa2/villa2.webp",
         ],
       },
       {
         id: 3,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-3",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "مشروع فيلا بتصميم معماري حديث وتفاصيل تجمع بين الجمال والاحتياجات اليومية.",
         images: [
           "/images/projects/residential/villa3/villa3.webp",
           "/images/projects/residential/villa3/001.webp",
@@ -92,10 +92,10 @@ export const projectCategories = [
       },
       {
         id: 4,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-4",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "تصميم معماري مميز لفيلا سكنية مع اهتمام بالتفاصيل والواجهات والتوزيع الداخلي.",
         images: [
           "/images/projects/residential/villa4/villa4.webp",
           "/images/projects/residential/villa4/froont azhar.webp",
@@ -105,20 +105,20 @@ export const projectCategories = [
       },
       {
         id: 5,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-5",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "مشروع سكني بتصميم عصري يوفر بيئة مريحة وتوزيعًا مناسبًا لمختلف الاستخدامات.",
         images: [
           "/images/projects/residential/villa5/pic1.webp",
         ],
       },
       {
         id: 6,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-6",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "تصميم فيلا يجمع بين الطابع المعاصر والوظيفية مع عناية خاصة بالتفاصيل المعمارية.",
         images: [
           "/images/projects/residential/villa6/iso  9-3-2023.webp",
           "/images/projects/residential/villa6/ele  9-3.webp",  
@@ -126,20 +126,20 @@ export const projectCategories = [
       },
       {
         id: 7,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-7",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "تصميم سكني أنيق يوازن بين المظهر العصري والراحة في الاستخدام اليومي.",
         images: [
           "/images/projects/residential/villa7/المنظور.webp",
         ],
       },
       {
         id: 8,
-        name: "مجمع سكني",
+        name: "فيلا سكنية عصرية",
         slug: "residential-villa-8",
         description:
-          "مشروع مجمع سكني متكامل يضم مجموعة من الوحدات السكنية بتصميم عملي.",
+    "مشروع فيلا بتصميم حديث يركز على جودة التفاصيل وتناسق العناصر المعمارية.",
         images: [
           "/images/projects/residential/villa8/FINAL.webp",
         ],
@@ -156,10 +156,10 @@ export const projectCategories = [
     projects: [
       {
         id: 1,
-        name: "مصنع حديد وصلب",
+        name: "مصنع الفوزان للحديد وصلب",
         slug: "steel-factory",
         description:
-          "مشروع هندسي صناعي لمصنع متخصص في صناعة الحديد والصلب.",
+          "مشروع هندسي صناعي لمصنع الفوزان متخصص في صناعة الحديد والصلب.",
         images: [
           "/images/projects/industrial/industrial.webp",
           "/images/projects/industrial/2222.webp",
@@ -174,14 +174,14 @@ export const projectCategories = [
     type: "مشاريع تجارية",
     slug: "commercial",
     description:
-      "مشاريع تجارية تشمل المراكز التجارية والمكاتب والمعارض والمطاعم والمنشآت التجارية.",
+      "مشاريع تجارية تشمل المراكز التجارية والمكاتب والمعارض والمطاعم ومحطات الوقود والمنشآت التجارية.",
     projects: [
       {
         id: 1,
-        name: "مركز تجاري",
-        slug: "commercial-center",
+        name: "محطة المحروقات بالنقفذة",
+        slug: "gas-station",
         description:
-          "تصميم مشروع مركز تجاري يوفر مساحات متنوعة للأنشطة والخدمات التجارية.",
+  "مشروع محطة وقود متكاملة تجمع بين خدمات التزود بالوقود والهايبر ماركت والمطاعم والمسجد والموتيل لتوفير كافة احتياجات المسافرين.",
         images: [
           "/images/projects/commercial/station.webp",
           "/images/projects/commercial/cafffe.webp",
@@ -204,10 +204,10 @@ export const projectCategories = [
     projects: [
       {
         id: 1,
-        name: "مبنى تراثي",
-        slug: "heritage-building-1",
+        name: "مبنى محافظة الإحساء بقوات الأمن البيئي",
+        slug: "arch-building-1",
         description:
-          "مشروع معماري يبرز الطابع التراثي مع الحفاظ على الهوية المعمارية للمبنى.",
+    "تصميم معماري يحافظ على الهوية التراثية للإحساء، مع توظيف العناصر المعمارية التقليدية بأسلوب يجمع بين الأصالة والوظيفية.",
         images: [
           "/images/projects/architicture/build1/bulding.webp",
           "/images/projects/architicture/build1/01-واجهه-المشروع-(السور).webp",
@@ -224,10 +224,10 @@ export const projectCategories = [
       },
       {
         id: 2,
-        name: "مبنى تراثي",
-        slug: "heritage-building-2",
+        name: "مبنى محافظة الجبيل بقوات الأمن البيئي",
+        slug: "arch-building-2",
         description:
-          "مشروع معماري يبرز الطابع التراثي مع الحفاظ على الهوية المعمارية للمبنى.",
+    "مشروع معماري مستوحى من الطابع المحلي، يجمع بين تفاصيل العمارة التراثية ومتطلبات التصميم الحديث مع الحفاظ على الهوية الأصيلة.",
         images: [
           "/images/projects/architicture/build2/04-الواجهه-الرئيسية-(الشمالية).webp",
           "/images/projects/architicture/build2/01-واجهه-المشروع-(السور).webp",
@@ -244,10 +244,10 @@ export const projectCategories = [
       },
       {
         id: 3,
-        name: "مبنى تراثي",
-        slug: "heritage-building-3",
-        description:
-          "مشروع معماري يبرز الطابع التراثي مع الحفاظ على الهوية المعمارية للمبنى.",
+        name: "مبنى محافظة الخبر بقوات الأمن البيئي",
+        slug: "arch-building-3",
+         description:
+    "تصميم يعكس الطابع المعماري المحلي من خلال الحفاظ على العناصر التراثية وإعادة توظيفها ضمن رؤية معمارية تجمع الأصالة والمعاصرة.",
         images: [
           "/images/projects/architicture/build3/04-الواجهه-الرئيسية-(الشمالية).webp",
           "/images/projects/architicture/build3/01-واجهه-المشروع-(السور).webp",
@@ -264,10 +264,10 @@ export const projectCategories = [
       },
       {
         id: 4,
-        name: "مبنى تراثي",
-        slug: "heritage-building-4",
+        name: "مبنى محافظة حفر الباطن بقوات الأمن البيئي",
+        slug: "arch-building-4",
         description:
-          "مشروع معماري يبرز الطابع التراثي مع الحفاظ على الهوية المعمارية للمبنى.",
+    "مشروع يجسد الهوية المعمارية المحلية من خلال دمج ملامح التراث مع أساليب التصميم الحديثة، بما يحافظ على أصالة المبنى ووظيفته.",
         images: [
           "/images/projects/architicture/build4/04-الواجهه-الرئيسية-(الشمالية).webp",
           "/images/projects/architicture/build4/01-واجهه-المشروع-(السور).webp",

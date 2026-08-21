@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { projectCategories } from "@/src/data/projects";
+import ContactBtn from "@/src/components/ui/ContactBtn";
 
 
 // Get all projects from all categories
@@ -134,10 +135,10 @@ export default async function ProjectPage({ params }) {
 
       {/* Project Information */}
       <section
-        className="border-r-4 border-primary-light pr-5"
+        className="border-r-4 border-primary-light pr-5 flex flex-col md:flex-row md:justify-between md:items-center"
       >
-
-        <h1
+        <div className="w-[75%]">
+          <h1
           id="project-title"
           className="mb-5 text-3xl font-bold text-primary md:text-4xl"
         >
@@ -147,6 +148,10 @@ export default async function ProjectPage({ params }) {
         <p className="max-w-4xl text-base leading-9 text-gray-600 md:text-lg">
           {project.description}
         </p>
+        </div> 
+        <ContactBtn href="https://wa.me/966543020833" target="_blank" className="w-fit">
+                    طلب عرض سعر 
+        </ContactBtn>
 
       </section>
 

@@ -3,7 +3,8 @@ import Container from "../ui/Container";
 import ScrollReveal from "../ui/ScrollReveal";
 import { projects } from "@/src/data/projects";
 import Link from "next/link";
-import {ArrowLeft} from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import ContactBtn from "../ui/ContactBtn";
 export default function Projects() {
     return (
         <section aria-labelledby="projects-title" className="pt-5 bg-linear-to-b from-primary via-wavy-blue to-white flex flex-col min-h-screen pb-10">
@@ -28,7 +29,7 @@ export default function Projects() {
                                 </div>
                                 <div className='flex justify-between p-3'>
                                     <Link className='navlink group text-sm text-primary-gray font-bold pb-3 transition ease-linear duration-200  ml-4  ' href="/projects">
-                                        < ArrowLeft className="text-gold inline ml-1"/>
+                                        < ArrowLeft className="text-gold inline ml-1" />
                                         جميع المشاريع
                                     </Link>
 
