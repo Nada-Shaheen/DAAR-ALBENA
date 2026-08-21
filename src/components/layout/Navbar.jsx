@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className="bg-wavy-blue ">
       <nav className="min-h-[20vh] md:min-h-[12vh] flex items-center py-3">
         <Container className="w-full flex flex-col gap-3 items-center md:flex-row md:justify-between ">
-          <Link href="/" className="w-[70%] md:w-[20%] lg:w-[30%]">
+          <Link href="/" className="w-[70%] md:w-[25%] lg:w-[26%]">
             <Image
               src="/images/logo.png"
               alt="دار البناء"
